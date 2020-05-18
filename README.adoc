@@ -1,10 +1,7 @@
-// This document is authored using Asciidoctor:
-// https://asciidoctor.org/
-
 # rename-efi-entry
 
 [.lead]
-A Bash script to rename EFI boot entries
+A bash script designed to simplify renaming EFI boot entries. 
 
 ## Background
 
@@ -109,12 +106,12 @@ device name;
 
 ### Limitations
 
-This script can only rename EFI boot entries that are related to Linux. It will most probably ignore the other ones.
+This script was designed to rename Linux EFI boot entries but it does work on Windows EFI entries as well.
+Please note however that only Windows 10 EFI entries have been tested.
 
 ### Important usage notes
 
-Feel free to use, but do it on your risk :)
-
+Use at your own risk, you can damage your EFI boot entries.
 It may be wise to review the `efibootmgr` commands before final execution...
 
 ## Licenses
