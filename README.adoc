@@ -1,4 +1,4 @@
-# rename-efi-entry
+# EFIRename
 
 [.lead]
 A bash script designed to simplify renaming EFI boot entries. 
